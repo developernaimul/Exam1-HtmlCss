@@ -1,0 +1,1209 @@
+/* @media(max-width:1220px){
+    .fix-width {
+        margin: auto;
+        padding: 0 20px;
+        max-width: 100%;
+    }
+}
+@media(max-width:940px){
+    .top-bar {
+        display: none;
+    }
+    .header-menu ul li a {
+        font-size: 14px;
+        padding: 27px 8px;
+    }
+    .header-menu ul li a span {
+        margin-left: 3px;
+    }
+    .header-menu ul li a strong {
+        right: 8px;
+    }
+}
+.header-menu span{
+    display: none;
+}
+.header-menu input{
+    display: none;
+}
+@media(max-width:790px){
+    .header-icon strong {
+        visibility: hidden;
+        opacity: 0;
+    }
+    .header-logo {
+        width: 50%;
+    }
+    /* .header-menu {
+        width: 80%;
+        text-align: center;
+        height: 0;
+        width: 0;
+    } */
+
+/* .header-menu span {
+        position: absolute;
+        top: 24px;
+        right: 19px;
+        font-size: 21px;
+        display: block;
+        pointer-events: none;
+        height: 20px;
+        width: 20px;
+    }
+    .header-menu input {
+        position: absolute;
+        top: 28px;
+        display: block;
+        right: 20px;
+        opacity: 0;
+        width: 20px;
+        cursor: pointer;
+    }
+    .header-menu ul {
+        list-style: none;
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+    .header-icon {
+        width: 50%;
+        text-align: right;
+        line-height: 72px;
+    }
+    .header-menu span:checked ~ ul{
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+    }
+}  */
+
+@media (max-width:2500px) {
+    .admission-right {
+        height: 450px;
+    }
+    .admission-left {
+        width: 50%;
+        height: 450px;
+        overflow: hidden;
+    }
+    .admission-left img {
+        min-height: 450px !important;
+    }
+    .admission-right-text {
+        padding: 150px 0;
+    }
+}
+
+@media (max-width:1900px) {
+    .fix-width {
+        max-width: 1700px;
+    }
+    .popular-box h4 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .popular-box {
+        margin-bottom: 37px;
+    }
+    .about-right-box {
+        margin-bottom: 14px;
+    }
+}
+
+@media (max-width:1800px) {
+    .fix-width {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width:1700px) {
+    .fix-width {
+        max-width: 1500px;
+    }
+    .popular-box h4 {
+        font-size: 28px;
+        font-weight: 700;
+    }
+    .about-right-box {
+        padding: 21px;
+    }
+    .about-inner {
+        margin-top: 58px;
+    }
+}
+
+@media (max-width:1600px) {
+    .fix-width {
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+    .about-inner {
+        margin-top: 50px;
+    }
+    .admission-right-text {
+        padding: 122px 0;
+    }
+}
+
+@media (max-width:1500px) {
+    .fix-width {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media (max-width:1450px) {
+    .about-inner {
+        margin-top: 37px;
+    }
+    .news-right-text h4 {
+        font-size: 23px;
+    }
+}
+
+@media (max-width:1350px) {
+    .fix-width {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    .popular-box h4 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .about-inner {
+        margin-top: 56px;
+    }
+}
+
+@media (max-width:1306px) {
+    .about-inner {
+        margin-top: 40px;
+    }
+    .admission-right-text {
+        padding: 114px 0;
+    }
+}
+
+@media (max-width:1200px) {
+    .fix-width {
+        width: 100%;
+        padding: 0 20px !important;
+        /* overflow: hidden; */
+    }
+    .news-right-text h4 {
+        font-size: 22px;
+        margin-bottom: 20px;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .admission-right-text {
+        padding: 92px 0;
+    }
+    /* .questions-box {
+        background: #fff;
+        margin-bottom: 20px;
+        padding: 12px;
+    }
+    .question-box-top {
+        background: #21a7d0;
+        color: #fff;
+        padding: 10px;
+    }
+    .question-box-bottom {
+        background: #fff;
+        padding: 11px;
+    }
+    .question-box-bottom p {
+        font-size: 14px;
+        line-height: 21px;
+    } */
+}
+
+.header-menu input {
+    display: none;
+}
+
+.header-menu .d-block {
+    display: none;
+}
+
+.header-menu .crose {
+    display: none;
+}
+
+@media(max-width:1140px) {
+    .banner-content {
+        width: 54%;
+    }
+    .banner-content p {
+        width: 89%;
+    }
+    .about-box-left span {
+        font-size: 17px;
+    }
+    .about-right-box {
+        margin-bottom: 20px;
+    }
+    .about-box-right p {
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    /* .about-left h2 {
+        font-size: 33px;
+    } */
+    .popular-box h4 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .question-left h2 {
+        margin-bottom: 15px;
+        font-size: 29px;
+    }
+    .teacher-inner-text {
+        padding: 98px 0px;
+    }
+    .news-right-text h4 {
+        font-size: 20px;
+        margin-bottom: 20px;
+        transition: .5s;
+        cursor: pointer;
+    }
+    .address-text p {
+        font-size: 14px;
+    }
+    .address-text a {
+        font-size: 14px;
+    }
+    .footer-bottom-content p {
+        width: 100%;
+        padding-top: 34px;
+    }
+    .footer-bottom-content {
+        width: 43%;
+    }
+    .footer-bottom-social {
+        width: 37%;
+    }
+}
+
+@media(max-width:1080px) {
+    .about-box-left span {
+        font-size: 18px;
+    }
+    .about-box-right p {
+        font-size: 15px;
+        padding-top: 4px;
+    }
+    .about-left h2 {
+        font-size: 33px;
+    }
+    .about-left p {
+        color: #606060;
+        font-size: 15px;
+    }
+    .subject-box-text h6 {
+        font-size: 17px;
+    }
+    .popular-box {
+        width: 49%;
+    }
+    .popular-box:nth-child(3n+3) {
+        margin-right: 20px;
+    }
+    .popular-box:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .popular-box h4 {
+        font-size: 31px;
+    }
+    .news-right-content h4 {
+        font-size: 19px;
+        margin-top: 14px;
+    }
+}
+
+@media(max-width:1040px) {
+    .banner-content {
+        width: 65%;
+    }
+    .popular-box:nth-child(3n+3) {
+        margin-right: 2%;
+    }
+    .popular-box:nth-child(2n+2) {
+        margin-right: 0;
+    }
+    .questions-box h4 {
+        display: inline-block;
+        font-size: 14px;
+    }
+    .teacher-inner-text {
+        padding: 84px 0px;
+    }
+    .news-right-text {
+        padding-top: 4% !important;
+    }
+    .news-right-text p {
+        margin-bottom: 6%;
+    }
+    .news-right-text h4 {
+        font-size: 17px !important;
+    }
+    /* .news-right-text {
+        padding-top: 9% !important;
+    } */
+    .news-left {
+        height: 195px;
+        overflow: hidden;
+    }
+    .news-left-img {
+        height: 195px;
+    }
+    .news-right-content h4 {
+        font-size: 19px;
+        margin-top: 5px;
+    }
+    .news-right-number {
+        padding: 0px 0;
+    }
+    .news-right-contented {
+        padding: 32px;
+    }
+    .news-letter-left h2 {
+        font-size: 32px;
+    }
+    .footer {
+        background: url(img/ia_400000072.png) no-repeat center right;
+        background-size: cover;
+    }
+}
+
+@media (max-width:992px) {
+    .header {
+        position: relative;
+    }
+    .top-bar {
+        display: none;
+    }
+    .header-icon {
+        display: none;
+    }
+    .header-menu .primary-menu {
+        visibility: hidden;
+        opacity: 0;
+        height: 0;
+    }
+    .header-menu .d-block {
+        position: absolute;
+        top: 34px;
+        right: 20px;
+        width: 35px;
+        height: 30px;
+        font-size: 30px;
+        pointer-events: none;
+        display: block;
+    }
+    .header-menu input {
+        position: absolute;
+        top: 36px;
+        right: 22px;
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        opacity: 0;
+        display: block;
+        cursor: pointer;
+    }
+    .header-menu .crose {
+        position: absolute;
+        top: 34px;
+        right: 21px;
+        width: 30px;
+        display: block;
+        height: 30px;
+        font-size: 31px;
+        cursor: pointer;
+        pointer-events: none;
+        visibility: hidden;
+        opacity: 0;
+    }
+    .header-menu .primary-menu li {
+        display: block;
+    }
+    .header-menu input:checked~.crose {
+        visibility: visible;
+        opacity: 1;
+    }
+    .header-menu input:checked~.d-block {
+        visibility: hidden;
+        opacity: o;
+    }
+    .header-menu input:checked~.primary-menu {
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+        text-align: left;
+    }
+    .header-logo {
+        width: 100%;
+    }
+    .header-menu ul li a {
+        padding: 8px 20px;
+    }
+    .header-menu ul li a strong {
+        top: 34%;
+    }
+    .header-menu ul li .about-dropdown {
+        height: auto;
+    }
+    .header-menu ul li .home-dropdown {
+        height: auto;
+        z-index: 10;
+        top: 0;
+        left: 139px;
+        padding: 26px;
+        box-shadow: 1px 1px 15px #ddd;
+        background-color: #fff;
+        width: 650px !important;
+        padding-top: 0px;
+        padding-bottom: 0;
+        text-align: left !important;
+    }
+    .header-menu ul li .home-dropdown ul li a {
+        color: #000 !important;
+    }
+    ul.home-dropdown ul li a {
+        padding: 6px 0;
+    }
+    .header-menu ul li .about-dropdown {
+        top: 9px;
+        left: 139px;
+    }
+    .courses {
+        top: -111px !important;
+        text-align: left;
+    }
+    .header-menu ul {
+        padding-bottom: 31px;
+    }
+    .pages {
+        top: -111px !important;
+        text-align: left !important;
+    }
+    .contact {
+        top: -153px !important;
+        text-align: left;
+    }
+    .header-logo a img {
+        position: relative;
+        top: 16px;
+    }
+    .header-menu ul {
+        padding-bottom: 31px;
+        padding-top: 20px;
+    }
+    .about-left {
+        width: 100%;
+        text-align: center;
+        float: inherit;
+    }
+    .about-left h2 {
+        width: 500px;
+        margin: auto;
+        margin-bottom: 20px !important;
+    }
+    .about-inner {
+        margin-top: 24px !important;
+        width: 436px;
+        margin: auto;
+    }
+    .about-inner-left {
+        width: 29%;
+    }
+    .about-inner-right {
+        width: 67%;
+    }
+    .about-right {
+        width: 53%;
+        margin-top: 60px !important;
+        margin: auto;
+        float: inherit;
+    }
+    /* .about-right {
+        width: 53%;
+        margin-top: 60px !important;
+        margin: auto;
+        position: relative;
+        right: 200px;
+    } */
+    .subject-box {
+        width: 49%;
+    }
+    /* .subject-box:nth-child(3n+3){
+        margin-right: 20px;
+    }
+    .subject-box:nth-child(2n+2){
+        margin-right: 0;
+    } */
+    .subject-box:nth-child(2),
+    .subject-box:nth-child(4),
+    .subject-box:nth-child(6),
+    .subject-box:nth-child(8) {
+        margin-right: 0;
+    }
+    .subject-box:nth-child(3) {
+        margin-right: 2%;
+    }
+    .subject-box:last-child {
+        margin: auto;
+        width: 49%;
+        position: relative;
+        left: 25%;
+    }
+    .popular-box h4 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .admission-right-text {
+        padding: 70px 0;
+    }
+    .question-left h2 {
+        font-size: 25px;
+    }
+    .testomonial-left {
+        padding-top: 20px;
+    }
+    .testomonial-left span img {
+        margin-bottom: 0px !important;
+    }
+    .testomonial-right {
+        padding-top: 20px;
+    }
+    .testomonial-right span img {
+        margin-bottom: 0px !important;
+    }
+    /* .news-right-content h4 {
+        font-size: 16px;
+        margin-top: 8px;
+    }
+    .news-right-contented {
+        padding: 35px;
+    }
+    .news-right-text h4 {
+        margin-bottom: 9px;
+    } */
+    .news-bottom-left {
+        width: 100%;
+        float: inherit;
+    }
+    .news-right-text h4 {
+        font-size: 26px !important;
+        margin-bottom: 12px;
+    }
+    .news-right {
+        width: 53%;
+        float: inherit;
+        margin: auto;
+        margin-top: 66px;
+    }
+    .news-right-text p {
+        margin-bottom: 3%;
+    }
+    .news-right-text p {
+        font-size: 12px;
+    }
+    .news-right-text span {
+        font-size: 12px;
+    }
+    .news-letter-left h2 {
+        font-size: 29px;
+    }
+    .footer-box {
+        width: 33%;
+        margin-bottom: 29px;
+        margin: auto;
+        padding-left: 5%;
+    }
+    .footer-box h4 {
+        margin-bottom: 28px;
+    }
+    .footer-box:last-child {
+        width: 100% !important;
+        margin: auto;
+        float: inherit;
+    }
+    .footer-box:last-child {
+        width: 37% !important;
+        margin: auto;
+        float: inherit;
+        padding-left: 0;
+        position: relative;
+        top: 36px;
+    }
+    .footer-bottom {
+        margin-top: 72px;
+    }
+    .footer-bottom-content p {
+        padding-top: 18px;
+    }
+}
+
+@media (max-width:870px) {
+    .banner-content {
+        width: 79%;
+        padding-bottom: 224px !important;
+    }
+    .admission-left {
+        width: 100%;
+    }
+    .admission-right {
+        width: 100%;
+        text-align: center;
+        padding-right: 50px;
+        height: 343px !important;
+    }
+    .question-left {
+        width: 100%;
+        margin-bottom: 50px;
+        height: auto;
+    }
+    .question-right {
+        width: 100%;
+        position: relative;
+    }
+    .question-left h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .question-right img {
+        height: 435px;
+    }
+    .teacher-inner-text {
+        padding: 56px 0px;
+    }
+    .news-letter-left {
+        width: 100%;
+        float: inherit;
+        /* margin: auto; */
+        text-align: center;
+    }
+    .news-letter-right {
+        width: 100%;
+        text-align: center;
+        padding: 40px 0;
+    }
+    .news-letter-left h6 {
+        margin-bottom: 6px;
+    }
+    .news-letter-right {
+        width: 100%;
+        text-align: center;
+        padding: 40px 0;
+        padding-top: 18px;
+    }
+    .news-letter-right a {
+        padding: 13px 65px;
+    }
+    .news-letter-right input {
+        width: 50%;
+    }
+    .news-letter-content {
+        padding-bottom: 20px;
+    }
+    .footer-bottom-img {
+        width: 50%;
+    }
+    .footer-bottom-content {
+        width: 100%;
+    }
+    .footer-bottom {
+        position: relative;
+    }
+    .footer-bottom-social {
+        width: 100%;
+        position: absolute;
+        top: 50px;
+        right: 0;
+    }
+}
+
+@media (max-width:820px) {
+    ul.home-dropdown ul {
+        margin-right: 4%;
+    }
+    ul.home-dropdown ul {
+        padding-bottom: 15px;
+    }
+    .header-menu ul li .home-dropdown {
+        width: 477px !important;
+    }
+    ul.home-dropdown ul li a {
+        padding: 6px 0;
+        font-size: 12px;
+    }
+    .popular-box h4 {
+        font-size: 23px;
+        font-weight: 700;
+    }
+    .teacher-inner-text {
+        padding: 0;
+        padding-top: 18%;
+    }
+    .news-right-text h4 {
+        font-size: 21px !important;
+        margin-bottom: 12px;
+    }
+    .news-right-text {
+        padding-top: 6% !important;
+    }
+    /* .subject-box:nth-child(4) {
+        width: 48%;
+        margin-left: -5px;
+    } */
+}
+
+@media (max-width:725px) {
+    .banner-content {
+        width: 89%;
+        padding-bottom: 224px !important;
+    }
+    .about-left h2 {
+        width: 100%;
+    }
+    .about-right {
+        width: 70%;
+        margin-top: 60px !important;
+        margin: auto;
+        float: inherit;
+    }
+    .about-inner {
+        margin-top: 24px !important;
+        width: 90%;
+        margin: auto;
+    }
+    .subject-box {
+        width: 56%;
+        position: relative;
+        left: 23%;
+    }
+    .subject-box:last-child {
+        width: 56%;
+        left: 23%;
+    }
+    .popular-box h4 {
+        font-size: 20px;
+    }
+    .news-right {
+        width: 79%;
+        float: inherit;
+        margin: auto;
+        margin-top: 66px;
+    }
+    .news-right-number {
+        padding: 10px 0;
+    }
+    .news-right-content h4 {
+        margin-top: 13px;
+    }
+    .news-letter-left h2 {
+        font-size: 26px;
+    }
+    .news-letter-right a {
+        display: block;
+        width: 189px;
+        margin: auto;
+        margin-top: 20px;
+    }
+    .news-letter-right input {
+        width: 67%;
+        margin: auto;
+    }
+    .footer-box {
+        width: 50%;
+    }
+    .footer-box:last-child {
+        width: 50% !important;
+        margin: auto;
+        float: left;
+        padding-left: 5%;
+        position: none;
+        top: 0;
+    }
+    .footer-box {
+        width: 50%;
+        margin-bottom: 29px;
+    }
+    /* .teacher-inner-text {
+        padding: 41px 0px;
+    } */
+}
+
+@media (max-width:650px) {
+    ul.home-dropdown ul {
+        float: inherit;
+        width: 100% !important;
+        max-width: 100% !important;
+    }
+    ul.home-dropdown ul {
+        /* max-width: 33% !important; */
+        height: auto;
+        margin-right: 10%;
+        padding: 0;
+    }
+    .header-menu ul li .home-dropdown {
+        width: 200px !important;
+        padding: 20px;
+    }
+    .admission-left img {
+        min-height: 70vh;
+    }
+    .teacher-box {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .news-right-text {
+        width: 60%;
+    }
+    .news-left-img {
+        width: 40%;
+    }
+    .news-left {
+        height: 140px;
+        overflow: hidden;
+    }
+    .news-left-img {
+        height: auto;
+    }
+    .news-right-text {
+        padding-top: 4% !important;
+    }
+    .news-right-text {
+        padding-top: 2% !important;
+        padding-bottom: 2%;
+    }
+    .news-letter-right input {
+        width: 91%;
+        margin: auto;
+    }
+    .teacher-inner-text {
+        padding: 0;
+        padding-top: 42%;
+    }
+}
+
+@media (max-width:620px) {
+    .banner-content h2 {
+        font-size: 31px;
+        margin-bottom: 10px;
+    }
+    .banner-content p {
+        font-size: 15px;
+        margin-bottom: 15px !important;
+    }
+    .about-left h2 {
+        width: 100%;
+        font-size: 24px;
+    }
+    .about-left h6 {
+        font-size: 16px;
+    }
+    .subject-top-left h2 {
+        font-size: 25px;
+    }
+    .subject-top-left h6 {
+        font-size: 14px;
+    }
+    .subject-box {
+        width: 68%;
+        position: relative;
+        left: 16%;
+    }
+    .subject-box:last-child {
+        width: 68%;
+        left: 16%;
+    }
+    .popular-box {
+        width: 100%;
+    }
+    .question-right img {
+        height: 359px;
+    }
+    .question-right span {
+        top: 42%;
+    }
+    .testomonial-right {
+        width: 100%;
+        margin-top: 100px;
+    }
+    .testomonial-left {
+        width: 100%;
+    }
+    .news-right-text h4 {
+        font-size: 19px !important;
+    }
+    .footer-bottom-social {
+        width: 100%;
+        position: absolute;
+        top: 56px;
+        right: 0;
+    }
+}
+
+@media (max-width:550px) {
+    .about-right {
+        width: 80%;
+    }
+    .news-right-text {
+        width: 50%;
+    }
+    .news-left-img {
+        width: 50%;
+    }
+    .news-right-text p {
+        margin-right: 5px;
+    }
+    .news-right-text h4 {
+        margin-bottom: 0px;
+    }
+    .news-right {
+        width: 100%;
+        float: inherit;
+        margin: auto;
+        margin-top: 66px;
+    }
+    .news-letter-content {
+        padding-right: 20px !important;
+        padding-left: 20px !important;
+        padding-bottom: 0;
+    }
+    .news-letter-left h2 {
+        font-size: 21px;
+    }
+    .news-letter-left h6 {
+        font-size: 13px;
+    }
+    .news-letter-right input {
+        width: 83%;
+        margin: auto;
+    }
+}
+
+@media (max-width:500px) {
+    .banner-content p {
+        font-size: 14px;
+    }
+    .banner-content h2 {
+        font-size: 21px;
+    }
+    .banner-content {
+        width: 89%;
+        padding-bottom: 154px !important;
+    }
+    /* .subject-top-left h2 {
+        font-size: 18px;
+        margin-top: 7px;
+    }
+    .subject-top-left h6 {
+        font-size: 10px;
+    } */
+    .subject-top-left {
+        float: inherit;
+        text-align: center;
+    }
+    .subject-top-right {
+        float: inherit;
+        text-align: center;
+    }
+    .subject-top-right a {
+        margin-top: 16px;
+    }
+    .subject-box {
+        width: 100%;
+        position: relative;
+        left: 0;
+    }
+    .subject-box:last-child {
+        width: 100%;
+        left: 0;
+    }
+    .admission-right h2 {
+        font-size: 27px;
+        margin-bottom: 6px;
+    }
+    .admission-right-text {
+        padding-top: 24px !important;
+    }
+    .question-left h2 {
+        font-size: 21px;
+    }
+    .teacher-top-right {
+        width: 100%;
+        text-align: center;
+        padding-top: 8px;
+    }
+    .teacher-top-left {
+        width: 100%;
+        text-align: center;
+    }
+    .news-left {
+        height: auto;
+        overflow: hidden;
+        margin-bottom: 50px;
+    }
+    .news-bottom-left {
+        width: 80%;
+        float: inherit;
+        margin: auto;
+    }
+    .news-right-text {
+        width: 100%;
+        padding: 38px !important;
+    }
+    .news-left-img {
+        width: 100%;
+    }
+    .news-right-contented {
+        padding: 21px;
+    }
+    .news-right-text h4 {
+        margin-bottom: 6px;
+        font-size: 24px !important;
+    }
+    .footer-box {
+        width: 100%;
+        margin-bottom: 29px;
+        padding-left: 33%;
+    }
+    .footer-box:last-child {
+        width: 100% !important;
+        margin: auto;
+        float: left;
+        padding-left: 33%;
+    }
+    .footer {
+        background: none !important;
+        background-size: cover;
+    }
+    .footer-bottom-img img {
+        width: 94px;
+    }
+    .social-icon ul li a {
+        width: 30px;
+        height: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .footer-bottom-social {
+        top: 38px;
+    }
+    .about-inner-left {
+        width: 100%;
+        float: inherit;
+    }
+    .about-inner-left img {
+        width: 115px;
+    }
+    .about-inner-right {
+        width: 100%;
+        float: inherit;
+    }
+}
+
+@media (max-width:450px) {
+    .about-right {
+        width: 100%;
+    }
+    .question-top-text {
+        width: 90%;
+    }
+    .question-top-icon {
+        width: 10%;
+    }
+    .question-box-left {
+        width: 10%;
+    }
+    .question-box-right {
+        width: 90%;
+    }
+    .question-right img {
+        height: 291px;
+    }
+    .news-right-text h4 {
+        font-size: 20px !important;
+    }
+    .news-bottom-left {
+        width: 100%;
+        float: inherit;
+        margin: auto;
+    }
+    .news-letter-right a {
+        width: 156px;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .teacher-inner-text {
+        padding: 0;
+        padding-top: 35%;
+    }
+}
+
+@media (max-width:400px) {
+    .courses {
+        top: -87px !important;
+    }
+    .header-menu ul li .home-dropdown {
+        left: 119px;
+    }
+    .header-menu ul li .about-dropdown {
+        left: 121px;
+    }
+    .footer-box {
+        padding-left: 15%;
+    }
+    .footer-box:last-child {
+        padding-left: 15%;
+    }
+    .about-box-left span {
+        font-size: 16px;
+    }
+    .about-left p {
+        color: #606060;
+        font-size: 13px;
+    }
+    .about-box-right p {
+        font-size: 14px;
+        padding-top: 4px;
+    }
+    .news-right-content h4 {
+        font-size: 17px;
+        margin-top: 5px;
+    }
+    .news-right-number {
+        padding: 0px 0;
+    }
+    .news-right-contented {
+        padding: 17px;
+    }
+}
+
+@media (max-width:350px) {
+    .about-box-right p {
+        font-size: 13px;
+        padding-top: 13px;
+    }
+    .about-box-right {
+        width: 75%;
+    }
+    .about-box-left {
+        width: 21%;
+        margin-top: 10px;
+    }
+    .teacher-inner-text {
+        padding-top: 28%;
+    }
+    .news-right-content h4 {
+        font-size: 14px;
+    }
+}
